@@ -1,0 +1,130 @@
+body {
+    position: absolute;
+    margin: 0;
+    font-family: "Work Sans" ,sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    
+    background-color: var(--clr-primary);
+    color: var(--clr-light);
+
+    display: grid;
+    grid: "header header header header" auto
+    "...... list active ......" auto /
+    1fr minmax(200px, 500px) minmax(450px, 700px) 1fr
+}
+
+.main-body{
+    
+    border: none;
+    width:800px;
+    height: 600px;
+    margin-left:200px ;
+
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    justify-content: center;
+}
+
+
+
+.strong{
+    font-weight: -100;
+    font-size:smaller ;
+    color: orangered;
+}
+
+
+.main-header{
+
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 60px;
+
+}
+.primary {
+    background-color: orangered;
+    border-radius: 100%;
+    border: none;
+    font-size: 26px;
+    display: inline-block;
+}
+.light {
+    margin-left: -410px;
+    font-size: 35px;
+    font-weight: 10;
+}
+
+.todo-lists {
+    display: flex;
+    margin: 10px;
+    padding: 10px 0 10px 0 ;
+    border-radius: 10px;
+}
+.tasks-list {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.title-head {
+    color: orangered;
+    text-decoration: underline orangered;
+    
+    border-bottom-style: solid 4px;
+    border-bottom-width: 3.1px;
+    
+}
+.strike{
+    color: orangered;
+}
+
+.task1 {
+    border: 2px solid orangered;
+    border-spacing: 15px;
+    padding: 20px 20px 200px 20px;
+    text-align: justify;
+    margin: 10px 30px 10px 20px;
+    line-height: 1.4;
+    border-radius: 20px;
+}
+
+
+.task2 {
+    border: 2px solid orangered;
+    border-spacing: 15px;
+    padding: 20px 20px 200px 20px ;    text-align: justify;
+    margin: 10px 30px 10px 10px;
+    border-radius: 20px;
+}
+
+
+.task3 {
+    border: 2px solid orangered;
+    border-spacing: 15px;
+    margin: 10px 30px 10px 10px;
+    padding: 20px 20px 200px 20px ;
+    text-align: justify;
+    border-radius: 20px;
+
+}
+
+.options {
+    display: flex;
+    margin: 0 0 0 40px ;
+}
+.secondary-btn-one {
+    margin: 0px 15px 0px 10px;
+}
+
+.secondary-btn-two {
+    margin: 0px 15px 0px 10px;
+}
+.secondary-btn-three {
+    margin: 0px 15px 0px 10px;
+}
+.secondary-btn-four {
+    margin: 0px 15px 0px 10px;
+}

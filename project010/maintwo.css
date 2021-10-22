@@ -1,0 +1,79 @@
+.main-heading {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.2rem;
+    align-items: center;
+}
+.main-heading .bar {
+    flex: auto;
+    border: none;
+    height: 1px;
+    background: #aaa;
+}
+.main-body {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    
+    
+}
+.back-btn {
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+.btn-back {
+    border: 2px orangered;
+    border-radius: 50%;
+    background: orangered;
+    color: white;
+}
+.main-list {
+    border: 2px solid orangered;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: auto;
+    justify-content: space-between;
+}
+
+.primary {
+    background-color: orangered;
+    border-radius: 100%;
+    border: none;
+    margin-top: 80px;
+    margin-left: 80px;
+    font-size: 26px;
+    color: white;
+
+    display: inline-block;
+}
+
+.options {
+    display: flex;
+    margin: 0 0 0 40px ;
+    margin-bottom: 10px;
+}
+.secondary-btn-one {
+    margin: 0px 15px 0px 10px;
+}
+
+.secondary-btn-two {
+    margin: 0px 15px 0px 10px;
+}
+.secondary-btn-three {
+    margin: 0px 15px 0px 10px;
+}
+.secondary-btn-four {
+    margin: 0px 15px 0px 10px;
+}
